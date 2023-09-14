@@ -1,4 +1,4 @@
-package com.github.novicezk.discord.websocket;
+package io.github.novicezk.discord.websocket;
 
 import org.json.JSONObject;
 

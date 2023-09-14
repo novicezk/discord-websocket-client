@@ -1,4 +1,4 @@
-package com.github.novicezk.discord.exception;
+package io.github.novicezk.discord.exception;
 
 public class WebSocketClientStartException extends Exception {
 

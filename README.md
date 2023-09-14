@@ -6,7 +6,15 @@
 1. 进入discord频道，打开network，刷新页面，找到 `messages` 的请求
 2. Authorization 即 `userToken`，User-Agent 即 `userAgent`
 ![User Token](./docs/params_user.png)
-3. 引入依赖，启动websocket
+3. 引入maven依赖
+```xml
+<dependency>
+    <groupId>io.github.novicezk</groupId>
+    <artifactId>discord-websocket-client</artifactId>
+    <version>1.0</version>
+</dependency>
+```
+4. 启动websocket
 ```java
 String userToken = "xxx";
 String userAgent = "xxx";

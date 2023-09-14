@@ -1,16 +1,16 @@
-package com.github.novicezk.discord.websocket;
+package io.github.novicezk.discord.websocket;
 
 
 import cn.hutool.core.text.CharSequenceUtil;
 import cn.hutool.core.thread.ThreadUtil;
 import cn.hutool.core.util.RandomUtil;
-import com.github.novicezk.discord.compress.Decompressor;
-import com.github.novicezk.discord.compress.NoneDecompressor;
-import com.github.novicezk.discord.compress.ZlibDecompressor;
-import com.github.novicezk.discord.constants.WebSocketCode;
-import com.github.novicezk.discord.enums.Compression;
-import com.github.novicezk.discord.exception.WebSocketClientStartException;
-import com.github.novicezk.discord.util.AsyncLockUtils;
+import io.github.novicezk.discord.compress.Decompressor;
+import io.github.novicezk.discord.compress.NoneDecompressor;
+import io.github.novicezk.discord.compress.ZlibDecompressor;
+import io.github.novicezk.discord.constants.WebSocketCode;
+import io.github.novicezk.discord.enums.Compression;
+import io.github.novicezk.discord.exception.WebSocketClientStartException;
+import io.github.novicezk.discord.util.AsyncLockUtils;
 import com.neovisionaries.ws.client.WebSocket;
 import com.neovisionaries.ws.client.WebSocketAdapter;
 import com.neovisionaries.ws.client.WebSocketFactory;

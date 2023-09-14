@@ -1,6 +1,6 @@
-package com.github.novicezk.discord.compress;
+package io.github.novicezk.discord.compress;
 
-import com.github.novicezk.discord.enums.Compression;
+import io.github.novicezk.discord.enums.Compression;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

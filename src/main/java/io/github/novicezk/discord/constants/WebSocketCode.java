@@ -1,4 +1,4 @@
-package com.github.novicezk.discord.constants;
+package io.github.novicezk.discord.constants;
 
 public class WebSocketCode {
 	public static final int DISPATCH = 0;

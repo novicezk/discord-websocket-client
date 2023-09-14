@@ -1,4 +1,4 @@
-package com.github.novicezk.discord.enums;
+package io.github.novicezk.discord.enums;
 
 
 public enum Compression {

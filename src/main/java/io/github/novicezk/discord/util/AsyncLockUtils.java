@@ -1,4 +1,4 @@
-package com.github.novicezk.discord.util;
+package io.github.novicezk.discord.util;
 
 import cn.hutool.cache.CacheUtil;
 import cn.hutool.cache.impl.TimedCache;
